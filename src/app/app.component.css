@@ -1,0 +1,398 @@
+nav{
+    height: 88px;
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,.h1,.h2,.h3,.h4,.h5{
+  font-family: 'GT America Standard',sans-serif;
+  margin: 3rem 0 1rem;
+}
+
+.header-logo{
+    width: 10rem;
+    text-decoration: none;
+}
+
+.help-center-text{
+    text-decoration: none;
+    font-family: 'GT America Standard';
+}
+
+.help-center-text:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.navbar-brand{
+    text-decoration: none;
+    font-size: 24px;
+    display: inline-block;
+    font-weight: 400;
+}
+
+
+
+.nav-link{
+    color: #fff;
+}
+
+.submit-btn{
+    font-size: 24px;
+    margin-left: 1rem;
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.sign-in{
+    font-size: 24px;
+    margin-left: 1rem;
+    background-color: blue;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 10px; 
+}
+
+.sign-in:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+
+.navbar-toggler-icon {
+    background-image: none!important;
+    background-color: var(--bs-gray-800);
+    height: 3px;
+    width: 25px;
+    margin: 10px 0;
+    position: relative;
+    transition: all 0.35s ease-out;
+    transform-origin: center;
+  }
+  
+  .navbar-toggler-icon::before {
+    display: block;
+    background-color: var(--bs-gray-800);
+    height: 3px;
+    content: "";
+    position: relative;
+    top: -7px;
+    transition: all 0.15s ease-out;/*taken down to hide quicker*/
+    transform-origin: center;
+  }
+  
+  .navbar-toggler-icon::after {
+    display: block;
+    background-color: var(--bs-gray-800);
+    height: 3px;
+    content: "";
+    position: relative;
+    top: 4px;
+    transition: all 0.35s ease-out;
+    transform-origin: center;
+  }
+  
+  .navbar-dark .navbar-toggler-icon,
+  .navbar-dark .navbar-toggler-icon::before,
+  .navbar-dark .navbar-toggler-icon::after {
+    background-color: var(--bs-gray-100);
+  }
+  
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    transform: rotate(45deg);
+  }
+  
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {
+    opacity: 0;
+  }
+  
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
+    transform: rotate(-90deg) translateX(7px);
+  }
+
+@media (max-width: 768px) {
+  .search-btn{
+    font-size: inherit;
+    font-weight: 500;
+    text-rendering: auto;
+  }
+  .close-btn{
+    font-size: inherit;
+    font-weight: 500;
+    text-rendering: auto;
+  }
+ .navbar-brand{
+    font-size: 17px;
+ }
+    .header-logo{
+        width: 6rem;
+    }
+    .navbar-toggler-icon {
+        background-image: none!important;
+        background-color: var(--bs-gray-800);
+        height: 3px;
+        width: 25px;
+        margin: 10px 0;
+        position: relative;
+        transition: all 0.35s ease-out;
+        transform-origin: center;
+      }
+      
+      .navbar-toggler-icon::before {
+        display: block;
+        background-color: var(--bs-gray-800);
+        height: 3px;
+        content: "";
+        position: relative;
+        top: -7px;
+        transition: all 0.15s ease-out;/*taken down to hide quicker*/
+        transform-origin: center;
+      }
+      
+      .navbar-toggler-icon::after {
+        display: block;
+        background-color: var(--bs-gray-800);
+        height: 3px;
+        content: "";
+        position: relative;
+        top: 4px;
+        transition: all 0.35s ease-out;
+        transform-origin: center;
+      }
+      
+      .navbar-dark .navbar-toggler-icon,
+      .navbar-dark .navbar-toggler-icon::before,
+      .navbar-dark .navbar-toggler-icon::after {
+        background-color: var(--bs-gray-100);
+      }
+      
+      .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+        transform: rotate(45deg);
+      }
+      
+      .navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {
+        opacity: 0;
+      }
+      
+      .navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
+        transform: rotate(-90deg) translateX(7px);
+      }
+
+      .nav-item{
+        display: inline-block;
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+      }
+
+      .nav-link{
+        font-size: 24px;
+      }
+
+      .mobile-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+    
+}
+
+/* --------------*/
+ /* Home Section */
+ /*--------------*/
+ #home-section {
+  padding-top: 80px;
+  padding-bottom: 115px;
+  background-color: #dadbf1;
+}
+
+.home-section-title {
+  font-family: "GT America Standard", sans-serif;
+  color: black;
+  font-size: 80px;
+  letter-spacing: -4px;
+  font-weight: 400;
+  line-height: 76px;
+}
+
+.home-section-input {
+  border: 2px solid black; /* Set initial border color */
+  box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  border-radius: 4px;
+  line-height: 35px;
+  position: relative;
+}
+
+.home-section-input:hover {
+  border-color: #4c5fd5; /* Change border color on hover */
+}
+
+input[type="search"] {
+  padding: 1rem 2rem;
+  width: 100%;
+  font-weight: 400;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding-right: 30px;
+  background-image: url('../assets/icons/search-icon.png');
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.icon-hover:hover {
+  fill: #4c5fd5; 
+  color: #4c5fd5;
+  cursor: auto;
+}
+
+
+.home-section-input:hover input[type="search"] {
+  background-color: #4c5fd5; 
+}
+
+/*-----------------*/
+/* Service Section */
+/*-----------------*/
+#service-section{
+  padding-top: 80px;
+  padding-bottom: 115px;
+}
+
+.container-inner .home{
+  max-width: 1600px;
+  width: 80% !important;
+}
+
+.service-list-item{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 3rem;
+  padding-right: 15px;
+}
+
+.feature-item{
+  flex-direction: row;
+}
+
+.feature-item img{
+  height: 85px;
+  width: 85px;
+}
+
+.service-list-item-icon{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.service-list-item-title{
+  font-size: 24px;
+}
+
+.service-list-item-block{
+  position: relative;
+  padding: 0 1.5rem 0 0;
+  width: 100%;
+  color: #191a1b;
+}
+
+.service-list-item-content{
+  position: relative;
+  z-index: 2;
+}
+
+.service-list-item-content h4{
+  font-weight: 700;
+  line-height: 28px;
+  font-family: 'GT America Standard',sans-serif;
+  margin: 3rem 0 1rem;
+}
+
+.service-list-item-desc{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.service-list-item-link{
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.service-list-item-link:hover{
+  text-decoration: underline;
+}
+
+/* Footer Section */
+#footer{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer{
+  position: relative;
+  padding-bottom: 60px;
+  color: #fff;
+  background-color: #000;
+  font-family: 'GT America Standard',sans-serif;
+  font-weight: 400;
+}
+.footer-inner{
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1900px;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.footer-title{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.footer a{
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
+
+.footer #copyright{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.footer .footer-logo{
+  width: 138px;
+  margin-bottom: 20px;
+}
+
+.footer p{
+  margin: 0;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@media (max-width: 768px) {
+  .footer #copyright{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .footer-inner{
+    padding-bottom: 180px;
+    margin:0 auto;
+  }
+}
